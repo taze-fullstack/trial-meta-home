@@ -17,16 +17,18 @@ export default class Home extends React.Component {
     return (
       <div>
         <Helmet
-          defaultTitle="PSD Wizard | Best PSD to HTML Conversion Service Provider"
-          meta={
-            [
-              {
-                "property": "description", 
-                "content": "One of the world's trusted PSD to HTML conversion service provider on demand. Unlimited revisions. Low pricing. High standards. Strictly confidential."
-              }
-            ]
-          }
-        ></Helmet>
+          defaultTitle="Trial TITLE"
+          // meta={
+          //   [
+          //     {
+          //       "property": "description", 
+          //       "content": "One of the world's trusted PSD to HTML conversion service provider on demand. Unlimited revisions. Low pricing. High standards. Strictly confidential."
+          //     }
+          //   ]
+          // }
+        >
+          <meta name="description" content="Trial DESCRIPTION" />
+        </Helmet>
         <h1 style={{ textAlign: 'center' }}>Hello World</h1>
       </div>
     )   
