@@ -31,6 +31,9 @@ export default class Home extends React.Component {
           <meta name="google-site-verification" content="oRG8fQfIRrLphNm6wE7e-zAqKhMinR6z-LQzJiJpAA0" />
         </Helmet>
         <h1 style={{ textAlign: 'center' }}>Hello World</h1>
+        <img src={require('assets/1.png')} />
+        <img src={require('assets/2.png')} />
+        <img src={require('assets/3.png')} />
       </div>
     )   
   }
