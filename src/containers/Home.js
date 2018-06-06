@@ -28,6 +28,7 @@ export default class Home extends React.Component {
           // }
         >
           <meta name="description" content="Trial DESCRIPTION" />
+          <meta name="google-site-verification" content="oRG8fQfIRrLphNm6wE7e-zAqKhMinR6z-LQzJiJpAA0" />
         </Helmet>
         <h1 style={{ textAlign: 'center' }}>Hello World</h1>
       </div>
